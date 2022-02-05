@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --bg-color: hsl(217, 54%, 11%);
+  --card-bg-color: hsl(216, 50%, 16%);
+  --price-text-color: hsl(178, 100%, 50%);
+  --primary-text-color: hsl(215, 51%, 70%);
+  --divider-color: hsl(215, 32%, 27%);
+  --heading-color: white;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--bg-color);
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  background-color: var(--card-bg-color);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+h1 {
+  margin: 1.2rem 0 0.9rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--primary-text-color);
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+
+.container {
+  max-width: 330px;
+  margin: auto;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+.price {
+  display: flex;
+  font-size: 1.2rem;
+}
+.price img {
+  margin-right: 0.4rem;
+  max-height: 1.1rem;
+}
+
+.price h6 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--price-text-color);
+  font-weight: 600;
+}
+
+.time {
+  display: flex;
+  font-size: 1.2rem;
+}
+.time img {
+  margin-right: 0.4rem;
+  max-height: 1.1rem;
+}
+.time p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.creator {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+hr {
+  /* border-color: var(--divider-color); */
+  /* border-color: var(--divider-color); */
+  background-color: var(--divider-color);
+  height: 1px;
+  border: none;
+  margin: 1rem 0;
+}
+
+.creator img {
+  margin-right: 0.8rem;
+  max-height: 2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.creator p {
+  margin: auto 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/*  */
+/*  */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: none;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
