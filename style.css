@@ -42,7 +42,7 @@ p {
 }
 
 .container {
-  max-width: 330px;
+  max-width: 350px;
   margin: auto;
 }
 
@@ -104,9 +104,7 @@ hr {
 
 .creator img {
   margin-right: 0.8rem;
-  max-height: 2rem;
-  border: 1px solid white;
-  border-radius: 50%;
+  max-height: 2.3rem;
 }
 .creator p {
   margin: auto 0;
